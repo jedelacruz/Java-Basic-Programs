@@ -1,0 +1,43 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        
+        /*
+        
+        Write a program that accepts a numerical grade from the user and returns the corresponding letter grade. 
+        The program should use if...else if...else statements to evaluate the grade and output the appropriate letter grade.
+
+        A >= 90
+        B >= 80
+        C >= 70
+        D >= 60
+        E < 60
+        
+        */
+        
+        Scanner sc = new Scanner(System.in);
+        int grade;
+
+        System.out.print("Enter your grade: ");
+        grade = sc.nextInt();
+
+        if(grade >= 90){
+            System.out.print("Your letter grade is A");
+        }
+        else if(grade >= 80){
+            System.out.print("Your letter grade is B");
+        }
+        else if(grade >= 70){
+            System.out.print("Your letter grade is C");
+        }
+        else if(grade >= 60){
+            System.out.print("Your letter grade is D");
+        }
+        else{
+            System.out.print("Your letter grade is F");
+        }
+            
+        
+    }
+}
