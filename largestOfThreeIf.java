@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Main{
+    public static void main(String[] args){
+        
+        // Write a program that asks the user to enter three numbers and tells the user which number is the largest.
+      
+        Scanner sc = new Scanner(System.in);
+        int num1,num2,num3;
+
+        System.out.print("Enter first number: ");
+        num1 = sc.nextInt();
+
+        System.out.print("Enter second number: ");
+        num2 = sc.nextInt();
+
+        System.out.print("Enter third number: ");
+        num3 = sc.nextInt();
+
+        int largest = num1;
+
+        if(num2 > largest){
+            largest = num2;
+        }
+        if(num3 > largest){
+            largest = num3;
+        }
+
+        System.out.print("The largest number is " + largest);
+        
+    }
+}
