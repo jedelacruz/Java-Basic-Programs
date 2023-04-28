@@ -12,15 +12,12 @@ public class Main{
         System.out.print("Enter divisor: ");
         b = sc.nextInt();
 
-        if(b == 0){
+        if (b == 0){
             System.out.print("Error: divisor cannot be zero");
-        }
-        else{
-
-        quot = a / b;
-        
-        System.out.print("Quotient = " + quot);
-
+        } else {
+            quot = a / b;
+            
+            System.out.print("Quotient = " + quot);
         }
     }
 }

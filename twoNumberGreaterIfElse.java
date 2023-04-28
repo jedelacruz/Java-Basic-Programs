@@ -35,6 +35,8 @@ public class Main{
         else{
             System.out.print(num2 + " is larger");
         }
-        
+
+        // alternative:    
+        // System.out.print(num1 > num2 ? num1 : num2 + " is larger");
     }
 }

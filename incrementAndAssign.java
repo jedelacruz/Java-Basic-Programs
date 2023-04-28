@@ -28,7 +28,7 @@ public class Main{
 
         System.out.println("Before increment a = " + val);
 
-        val+=incVal;
+        val += incVal;
         
         System.out.print("After increment a = " + val);
     }

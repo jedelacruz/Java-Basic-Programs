@@ -17,7 +17,7 @@ public class Main{
         */
       
         Scanner sc = new Scanner(System.in);
-        int a,b,c;
+        int a,b,temp;
 
         System.out.print("Enter value a: ");
         a = sc.nextInt();
@@ -27,9 +27,9 @@ public class Main{
 
         System.out.println("Before swap a = " + a + ", b = " + b);
 
-        c = a;
+        temp = a;
         a = b;
-        b = c;
+        b = temp;
 
         System.out.print("After swap a = " + a + ", b = " + b);
 
