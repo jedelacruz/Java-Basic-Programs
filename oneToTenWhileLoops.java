@@ -1,13 +1,13 @@
 package competition;
 
-import java.util.Scanner;
+// import java.util.Scanner;
 
-public class main {
+public class oneToTenWhileLoops {
     public static void main(String[] args) {
     	
-        Scanner sc = new Scanner(System.in);
+        // Scanner sc = new Scanner(System.in);
         
-        int ct = 0;
+        int ct = 1;
         
         while(ct <= 10) {
         	System.out.println(ct);

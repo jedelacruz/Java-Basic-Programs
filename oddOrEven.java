@@ -15,7 +15,7 @@ class Main {
         System.out.print("Enter an integer: ");
         num1 = sc.nextInt();
 
-        if(num1 %2){
+        if (num1 % 2 == 0){
             System.out.print("even");
         }
         else{
